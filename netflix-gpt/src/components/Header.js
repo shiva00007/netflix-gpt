@@ -34,7 +34,8 @@ const Header = () => {
     //when the componenent was unmount
     return () => unsubscribe();
   }, []);
-  const handleSignin = () => {
+
+  const handleSignout = () => {
     signOut(auth)
       .then(() => {
         // Sign-out successful.
@@ -43,14 +44,15 @@ const Header = () => {
         // An error happened.
       });
   };
+
   return (
-    <div className="absolute px-8 py-6 bg-gradient-to-b from-black z-30  w-full flex justify-between">
-      <img className="w-44" src={logo} alt="logo" />
+    <div className="absolute px-8 py-6  bg-gradient-to-b from-black z-30  w-full flex justify-between">
+      <img className="w-[7.5rem]" src={logo} alt="logo" />
       {user && (
         <div className="flex p-2 ">
-          <img className="w-12 h-12 " src={user?.photoURL} alt="userlogo" />
+          {/* <img className="" src={user?.photoURL} alt="userlogo" /> */}
 
-          <button onClick={handleSignin} className="font-bold text-white">
+          <button onClick={handleSignout} className="font-bold text-white">
             SignOut
           </button>
         </div>
