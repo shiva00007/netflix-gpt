@@ -123,13 +123,13 @@ const Login = () => {
             ref={name}
             type="text"
             placeholder="Enter a Name"
-            className="p-2 my-4 w-full bg-gray-700 "
+            className="p-2 my-4 w-full bg-gray-700"
           />
         )}
 
         <input
           ref={email}
-          type="text"
+          type="email"
           placeholder="Enter a Email"
           className="p-2  my-4 w-full bg-gray-700 "
         />
