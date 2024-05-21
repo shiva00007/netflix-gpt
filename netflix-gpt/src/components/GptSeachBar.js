@@ -1,11 +1,13 @@
 import React, { useRef } from "react";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import lang from "../utils/LanguageConstant";
 import genai from "../utils/genai";
 import { api_options } from "../utils/constants";
+import { addGptMovieResults } from "../utils/gptSlice";
 const GptSeachBar = () => {
   const langkey = useSelector((store) => store.config.lang);
   const serachText = useRef(null);
+  const dispatch = useDispatch();
 
   const searchTmdbMovie = async (moviename) => {
     const data = await fetch(
@@ -58,6 +60,9 @@ const GptSeachBar = () => {
 
     const data = gptMovies.map((movie) => searchTmdbMovie(movie));
     const tmdpResults = await Promise.all(data);
+    dispatch(
+      addGptMovieResults({ movieName: gptMovies, movieResult: tmdpResults })
+    );
     console.log(tmdpResults);
   };
 
