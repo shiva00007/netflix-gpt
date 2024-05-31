@@ -1,6 +1,7 @@
 # NetflixGPT
 
-![NetflixGPT Logo](https://drive.google.com/file/d/1kEWpIpW6u8pKmM7vm3Th3-4OAWl7sakf/view?usp=sharing)
+![NetflixGPT WEB APP](https://drive.google.com/uc?id=1kEWpIpW6u8pKmM7vm3Th3-4OAWl7sakf)
+
 
 ## 🤖 Introduction
 By developing this project, you will gain hands-on experience in building a feature-rich movie streaming platform. This project combines modern web technologies to create an engaging and user-friendly interface, perfect for developers looking to enhance their portfolio with a sophisticated web application.
