@@ -40,4 +40,4 @@ By developing this project, I will gain hands-on experience in building a featur
 
 ---
 
-Enhance your skills by developing this comprehensive movie streaming platform, integrating modern technologies to create an immersive and user-friendly application. Join our community for support and collaboration.
+Enhance your skills by developing this comprehensive movie streaming platform, integrating modern technologies to create an immersive and user-friendly application. 
