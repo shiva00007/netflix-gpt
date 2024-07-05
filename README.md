@@ -10,6 +10,7 @@ By developing this project, I will gain hands-on experience in building a featur
 ## ⚙️ Tech Stack
 - React.js
 - Tailwind CSS
+- Redux Toolkit
 - Firebase Authentication
 - GPT API for Search
 - TMDB API for Movie Data
@@ -39,7 +40,6 @@ By developing this project, I will gain hands-on experience in building a featur
 - **User Engagement**: Enhanced with interactive and dynamic animations.
 
 ---
-
 ## Quick Start
 
 Follow these steps to set up the project locally on your machine.
@@ -60,18 +60,18 @@ Make sure you have the following installed on your machine:
 
 2. Navigate to the project directory:
     ```bash
-    cd netflixgpt
+    cd netflix-gpt
     ```
-
 ### Installation
 
 Install the project dependencies using npm:
 ```bash
 npm install
+```
 
 Running the Application:
 Start the development server:
 ```bash
 npm start
-
+```
 Enhance your skills by developing this comprehensive movie streaming platform, integrating modern technologies to create an immersive and user-friendly application. 
